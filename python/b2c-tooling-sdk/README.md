@@ -5,7 +5,9 @@
 `salesforce-b2c-tooling-sdk` is a Python SDK for Salesforce B2C Commerce tooling —
 authentication, configuration resolution, typed OCAPI/SCAPI clients, WebDAV, and
 higher-level operations for code deployment, jobs, sites, catalogs, Business
-Manager users/roles, sandboxes, metrics, and logs.
+Manager users/roles, sandboxes, metrics, and logs. See the
+[full documentation](https://salesforcecommercecloud.github.io/b2c-developer-tooling/python/)
+for guides and API reference.
 
 It is a faithful port of the
 [`@salesforce/b2c-tooling-sdk`](https://github.com/SalesforceCommerceCloud/b2c-developer-tooling)
@@ -107,8 +109,9 @@ single-flight semantics are preserved.
 
 ## Documentation
 
-Full guides and the generated API reference are built with MkDocs from the
-`docs/` directory. Build locally:
+Full guides and the generated API reference are online at
+https://salesforcecommercecloud.github.io/b2c-developer-tooling/python/.
+They are built with MkDocs from the `docs/` directory. Build locally:
 
 ```bash
 mkdocs build --strict     # or: mkdocs serve
